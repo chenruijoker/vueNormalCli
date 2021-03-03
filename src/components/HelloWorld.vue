@@ -18,14 +18,6 @@
           >babel</a
         >
       </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
-          target="_blank"
-          rel="noopener"
-          >eslint</a
-        >
-      </li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
@@ -95,8 +87,8 @@ export default {
 };
 </script>
 
-
-<style scoped>
+<!--添加scoped可以防止样式污染 -->
+<style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
 }
