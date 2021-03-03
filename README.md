@@ -1,24 +1,28 @@
-# vue-normal-cli
+# vue 脚手架介绍
 
-## Project setup
-```
-yarn install
-```
+-   本脚手架是基于 vue2.0 进行开发的，请勿使用 ts 或者 vue3.0 模式进行开发，两者版本开发理念和思想是存在差异的
+-   node 版本为 12.19.0
+-   包管理器是 Yarn
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## 分支介绍
 
-### Compiles and minifies for production
-```
-yarn build
-```
+-   master 分支为标准 Vue 解决方案，初始建站可用本套方案
+-   empty-template 分支为纯 vue 解决方案（无 axios 请求解决方案）
+-   router 分支为 vue-router 路由解决方案
+-   VueX 分支为 vueX 全局状态管理解决方案
 
-### Lints and fixes files
-```
-yarn lint
-```
+## 使用介绍
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+-   yarn start 启动脚手架
+-   yarn build 打包项目，成果物为 dist 文件夹
+
+## 开发进度
+
+> 此处专门为脚手架开发者查看，根据现实需求添加对应的内容
+
+-   解决路由问题
+-   解决 VueX 的问题
+-   解决环境分类问题
+-   提供底层可配置化的问题
+-   提供网络、域名、端口的配置化
+-   提供同步异步全局状态解决方案
